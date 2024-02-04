@@ -1,6 +1,2 @@
 
-L	java:S106"+Replace this use of System.out by a logger.(öÍÏ©úÿÿÿÿ8Õæ¨×1
-„
-java:S1128"bRemove this unused import 'com.nhnacademy.edu.springframework.project.report.DefaultResultReport'.(’ğÃ‰ùÿÿÿÿ8İ¼è¨×1
-ˆ
-java:S1128"kRemove this unused import 'com.nhnacademy.edu.springframework.project.service.DefaultWaterUsageFeeService'.(”à†8Ş¼è¨×1
+L	java:S106"+Replace this use of System.out by a logger.(öÍÏ©úÿÿÿÿ8Õæ¨×1

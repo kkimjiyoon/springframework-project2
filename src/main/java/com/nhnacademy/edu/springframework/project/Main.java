@@ -1,10 +1,8 @@
 package com.nhnacademy.edu.springframework.project;
 
 import com.nhnacademy.edu.springframework.project.config.ConfigMain;
-import com.nhnacademy.edu.springframework.project.report.DefaultResultReport;
 import com.nhnacademy.edu.springframework.project.report.ResultReport;
 import com.nhnacademy.edu.springframework.project.repository.WaterBillRepository;
-import com.nhnacademy.edu.springframework.project.service.DefaultWaterUsageFeeService;
 import com.nhnacademy.edu.springframework.project.service.WaterUsageFeeService;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 

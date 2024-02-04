@@ -2,8 +2,6 @@ package com.nhnacademy.edu.springframework.project.parser;
 
 import com.nhnacademy.edu.springframework.project.annotation.ExecutionTime;
 import com.nhnacademy.edu.springframework.project.domain.WaterBill;
-import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.stereotype.Component;
 
@@ -17,9 +15,6 @@ import java.util.List;
 
 @Component
 public class CsvDataParser implements DataParser {
-
-
-
     @Override
     @ExecutionTime
     public Collection<WaterBill> parse(String filePath) {
@@ -28,6 +23,7 @@ public class CsvDataParser implements DataParser {
              BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
         ) {
             String line = "";
+            bufferedReader.readLine();
             while ((line = bufferedReader.readLine()) != null) {
                 String[] dataArray = line.split(",");
                 int no = Integer.parseInt(dataArray[0]);

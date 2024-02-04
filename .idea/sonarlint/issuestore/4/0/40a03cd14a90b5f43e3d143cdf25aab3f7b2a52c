@@ -1,6 +1,4 @@
 
-g	java:S112,"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òιόÿÿÿÿ8‰£Έ§Χ1
-u
-java:S1128"SRemove this unused import 'org.springframework.beans.factory.annotation.Qualifier'.(νΰΔ®ύÿÿÿÿ8ωÒ¨Χ1
-l
-java:S1128"ORemove this unused import 'org.springframework.beans.factory.annotation.Value'.(μψ›8…ΐή¨Χ1
+g	java:S112("FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òιόÿÿÿÿ8‰£Έ§Χ1
+n
+java:S2677"LUse or store the value returned from "readLine" instead of throwing it away.(Òο΄εύÿÿÿÿ8‰ÿ­©Χ1

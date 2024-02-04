@@ -3,6 +3,7 @@ package com.nhnacademy.edu.springframework.project.repository;
 import com.nhnacademy.edu.springframework.project.annotation.ExecutionTime;
 import com.nhnacademy.edu.springframework.project.domain.WaterBill;
 import com.nhnacademy.edu.springframework.project.parser.DataParser;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Repository;
 
@@ -18,7 +19,7 @@ public class DefaultWaterBillRepository implements WaterBillRepository {
 
     @Value("${filePath}")
     private String filePath;
-    public DefaultWaterBillRepository(DataParser dataParser) {
+    public DefaultWaterBillRepository(@Qualifier("jsonDataParser") DataParser dataParser) {
         this.dataParser = dataParser;
         this.waterBillList = new ArrayList<>();
     }
