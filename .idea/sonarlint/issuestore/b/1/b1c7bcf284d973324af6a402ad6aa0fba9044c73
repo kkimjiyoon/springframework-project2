@@ -1,0 +1,6 @@
+
+g	java:S112!"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Ööâ¦×1
+G	java:S106"+Replace this use of System.out by a logger.(”¨÷8¸©å¦×1
+]	java:S125"<This block of commented-out lines of code should be removed.(ı‡…úÿÿÿÿ8º©å¦×1
+u
+java:S1128"XRemove this unused import 'com.nhnacademy.edu.springframework.project.domain.WaterBill'.(Ğ»Ïÿ8‚ö¦×1
